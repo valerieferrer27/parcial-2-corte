@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+
+/*Patrones globales*/
+
+h1, h2, h3 { font-family: 'Permanent Marker', cursive; }
+
+h4, h5, h6, a, p, button, form, input, select, textarea, option, table,tr, th, td, span, div, strong, em  { font-family: 'Poppins', sans-serif; }
+
+header, main, footer, aside, section, article, figure, nav, figcaption, div { display: block }
+
+body { margin: 0 !important; overflow-x: hidden;}
+
+
+
+
+/*Estilo de CSS (INVENTARIO) */
+
+
+/* ASIDE WHATSAPP*/
+
+aside#wp-contacto { width: 60px; height: 60px; position: fixed; bottom: 22px; right: 24px; z-index: 99998;  }
+aside#wp-contacto a { width: 60px; height: 54px; font-size: 30px; color: #fff; text-align: center; background: #30ce2d; border-radius: 50%; display: block; padding: 6px 0 0 0; transition: all 0.3s ease-in; }
+aside#wp-contacto a:hover { transition: all 0.3s ease-in; background: #000; }
+
+
+/*ASIDE*/
+
+aside#menu-movil { width: 290px; height: 100%; margin: 0; float: none; position: fixed; top: 0; left: -290px; z-index: 99999; background: #000;display: none;}
+
+aside#menu-movil a#abrir { width: 40px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 18px; right: -60px; z-index: 99996; text-align: center; font-size: 1.3em; padding: 8px 0; transition: all 0.3s ease-in; color: #fff; }
+aside#menu-movil a#abrir:hover { transition: all 0.3s ease-in; color: #53ac00; }
+
+aside#menu-movil a#cerrar {  width: 40px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 18px; right: -60px; z-index: 99996; color: #fff; text-align: center; font-size: 1.3em; padding: 8px 0; transition: all 0.3s ease-in;}
+aside#menu-movil a#cerrar:hover {transition: all 0.3s ease-in; color: #53ac00; }
+
+aside#menu-movil nav { width: 158px; height: auto; float: none; margin: 0 auto; position: relative; top: 26px; }
+aside#menu-movil nav a { font-size: 20px; font-weight: 400; float: none; position: relative; margin: 0 auto; font-family: 'Permanent Marker', cursive; text-decoration: none; width: auto; height: 30px; color: #fff; padding: 10px 0; text-align: center; display: block; }
+aside#menu-movil nav a:hover { transition: all 0.3s ease-in; color: #53ac00; }
+
+
+
+/*HEADER*/
+
+header { width: 100%; height: auto; margin: 0; float: none; position: fixed; z-index: 99997; top: 0; }
+
+header article { width: 1100px; height: 100px; margin: 0 auto; float: none; position: relative;}
+header article a { width: auto; height: 80px; position: relative; float: left; margin: 10px 0;}
+header article a img { width: auto; height: 80px; position: relative; float: left; margin: 0;}
+
+header article nav { width: 420px; height: 30px; float: right; margin: 0; position: relative; top: 35px; }
+header article nav a { font-size: 20px; font-weight: 400; float: left; position: relative; margin: 0 23px 0 0; font-family: 'Permanent Marker', cursive; text-decoration: none; width: auto; height: 30px; color: #fff; }
+header article nav a:last-child { margin: 0;}
+header article nav a:hover { transition: all 0.3s ease-in; color: #53ac00; }
+
+.transparente { background: rgb(196 196 196 / 0%);}
+.negro { background: #000}
+
+/*MAIN*/
+
+main { width: 100%; height: auto; position: relative; margin: 0; float: none; top: -20px;}
+
+
+/*Section: Banner*/
+
+
+main section#banner { width: 100%; height: auto; position: relative; margin: 0 auto 100px; float: none;  background: url(../img/banner-fondo.jpg) no-repeat center center; background-size: cover;}
+
+main section#banner article { width: 1100px; height: 700px; position: relative; float: none; margin: 0 auto; z-index: 99996; ;}
+main section#banner article h2 { font-size: 45px; font-weight: 400 ; text-align: center; margin: 0; padding: 324px 0 0; color: #fff; font-family: 'Permanent Marker', cursive; }
+
+
+
+/*Section: Info-Hamburguesas*/
+
+main section#hamburguesas-info{ width: 100%; height: auto; position: relative; float: none; margin: 0 auto 100px; }
+
+main section#hamburguesas-info div#ancla-hamburguesas-info { width: 100%; height: 1px; position: absolute; margin: 0 auto; float: none; top: -100px; left: 0;}
+
+main section#hamburguesas-info article { width: 1100px; height: 650px; position: relative; float: none; margin: 0 auto; }
+
+main section#hamburguesas-info article h3 { font-size: 55px; color: #53ac00; text-align: center; font-weight: 400; font-family: 'Permanent Marker', cursive; }
+
+main section#hamburguesas-info article figure { width: 335px; height: 450px; float: left; margin: 0px 47px 0 0; position: relative;}
+main section#hamburguesas-info article figure:last-child { margin: 0;}
+main section#hamburguesas-info article figure a { width: 335px; height: 235px; position: relative; margin: 0 auto; float: none; overflow: hidden; transition: all 0.3s ease-in; display: block;}
+main section#hamburguesas-info article figure a img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; top: -136px;}
+
+main section#hamburguesas-info article figure a:hover { opacity: 0.8; transition: all 0.3s ease-in; }
+main section#hamburguesas-info article figure a:hover img { transform: scale(1.05); transition: all 0.3s ease-in; }
+
+main section#hamburguesas-info article figure h4 { font-size: 22px; font-weight: 700; text-align: center; padding: 0px 50px; line-height: 1.5em; margin: 19px 0; }
+main section#hamburguesas-info article figure h6 { font-size: 14px; font-weight: 400; text-align: center; margin: 0 0 20px 0;}
+main section#hamburguesas-info article figure h5 { font-size: 22px; font-weight: 700; color: #53ac00; text-align: center; margin: 0 auto;}
+
+
+/*Section: Info-Pizzas*/
+
+main section#pizzas-info { width: 100%; height: auto; position: relative; float: none; margin: 0 auto 100px; }
+
+main section#pizzas-info div#ancla-pizzas-info { width: 100%; height: 1px; position: absolute; margin: 0 auto; float: none; top: -100px; left: 0; }
+
+main section#pizzas-info article { width: 1100px; height: 650px; position: relative; float: none; margin: 0 auto; }
+
+main section#pizzas-info article h3 { font-size: 55px; color: #53ac00; text-align: center; font-weight: 400; font-family: 'Permanent Marker', cursive;  }
+
+main section#pizzas-info article figure {width: 335px; height: 450px; float: left; margin: 0px 47px 0 0; position: relative;}
+main section#pizzas-info article figure:last-child { margin: 0;}
+main section#pizzas-info article figure a {  width: 335px; height: 235px; position: relative; margin: 0 auto; float: none; overflow: hidden; transition: all 0.3s ease-in; display: block; }
+main section#pizzas-info article figure a img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; top: -136px; }
+
+main section#pizzas-info article figure a:hover { opacity: 0.8; transition: all 0.3s ease-in;}
+main section#pizzas-info article figure a:hover img { transform: scale(1.05); transition: all 0.3s ease-in;}
+
+main section#pizzas-info article figure h4 { font-size: 22px; font-weight: 700; text-align: center; padding: 0px 50px; line-height: 1.5em; margin: 19px 0;  }
+main section#pizzas-info article figure h6 { font-size: 14px; font-weight: 400; text-align: center; margin: 0 0 20px 0; }
+main section#pizzas-info article figure h5 { font-size: 22px; font-weight: 700; color: #53ac00; text-align: center; margin: 0 auto; }
+
+
+/*Section: Combos*/
+
+
+main section#combos { width: 100%; height: auto; position: relative; float: none; margin: 0 auto 100px; }
+
+main section#combos div#ancla-combos { width: 100%; height: 1px; position: absolute; margin: 0 auto; float: none; top: -100px; left: 0;}
+
+main section#combos article {width: 1100px; height: 600px; position: relative; float: none; margin: 0 auto; }
+main section#combos article h3 { font-size: 55px; color: #53ac00; text-align: center; font-weight: 400; font-family: 'Permanent Marker', cursive; }
+
+main section#combos article nav { width: 1100px; height: 500px; float: left; position: relative; }
+main section#combos article nav a { width: 340px; height: 214px; position: relative; margin: 0 40px 26px 0; float: left; overflow: hidden; transition: all 0.3s ease-in; display: block;}
+main section#combos article nav a:nth-child(3) { margin: 0 0 26px 0;}
+main section#combos article nav a:nth-child(6) { margin: 0 0 26px 0;}
+main section#combos article nav a img { width: 100%; height: auto; display: block; margin: 0; float: none; position: relative; transition: all 0.3s ease-in; }
+main section#combos article nav a:hover {  opacity: 0.8; transition: all 0.3s ease-in; }
+main section#combos article nav a:hover img { transform: scale(1.05); transition: all 0.3s ease-in;}
+
+
+/*Section: Info-Bebidas*/
+
+main section#bebidas-info { width: 100%; height: auto; position: relative; float: none; margin: 0 auto 100px; }
+
+main section#bebidas-info div#ancla-bebidas-info { width: 100%; height: 1px; position: absolute; margin: 0 auto; float: none; top: -100px; left: 0; }
+
+main section#bebidas-info article {width: 1100px; height: 650px; position: relative; float: none; margin: 0 auto; }
+main section#bebidas-info article h3 { font-size: 55px; color: #53ac00; text-align: center; font-weight: 400; font-family: 'Permanent Marker', cursive; }
+
+main section#bebidas-info article figure {width: 335px; height: 450px; float: left; margin: 0px 47px 0 0; position: relative; }
+main section#bebidas-info article figure:last-child { margin: 0;}
+main section#bebidas-info article figure a { width: 335px; height: 235px; position: relative; margin: 0 auto; float: none; overflow: hidden; transition: all 0.3s ease-in; display: block; }
+main section#bebidas-info article figure a img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; top: -136px; }
+
+main section#bebidas-info article figure a:hover { opacity: 0.8; transition: all 0.3s ease-in; }
+main section#bebidas-info article figure a:hover img { transform: scale(1.05); transition: all 0.3s ease-in;}
+
+main section#bebidas-info article figure h4 { font-size: 22px; font-weight: 700; text-align: center; padding: 0px 50px; line-height: 1.5em; margin: 19px 0;  }
+main section#bebidas-info article figure h6 { font-size: 14px; font-weight: 400; text-align: center; margin: 0 0 20px 0; }
+main section#bebidas-info article figure h5 { font-size: 22px; font-weight: 700; color: #53ac00; text-align: center; margin: 0 auto; }
+
+
+/*FOOTER*/
+
+footer { width: 100%; height: auto; position: relative; float: none; margin: 0;  background: url(../img/footer.jpg) no-repeat center center; background-size: cover; filter: brightness(0.);}
+footer article { width: 1100px; height: 308px; position: relative; float: none; margin: 0 auto; }
+
+footer article div {  width: 350px; height: 100px; position: relative; float: none; margin: 0 auto; padding: 104px 0 0;}
+footer article div img { width: auto; height: 100px; position: relative; float: left; margin: 0; }
+footer article div nav {width: 150px; height: auto; position: relative; float: right; margin: 30px 0; }
+footer article div nav a { font-size: 30px; text-decoration: none; color: #fff; margin: 0 30px 0 auto; width: 30px; display: block; float: left; transition: all 0.3s ease-in;}
+footer article div nav a:last-child { margin: 0;}
+footer article div nav a:hover { transition: all 0.3s ease-in; color: #53ac00; }
+
+
+
+
+/*Zona de Media Queries*/
+
+/*Ajustes para Tablets*/
+
+@media only screen and (max-width: 1199px){
+
+    aside#menu-movil { display: block;}
+
+    
+    header article { width: 80%; height: 80px; margin: 0 auto; float: none; position: relative;}
+    header article a { width: auto; height: 60px; float: right; margin: 0;}
+    header article a img { width: auto; height: 60px;  float: right; margin: 0 auto; display: block; padding: 10px 0;}
+    header article nav { display: none;}
+
+    main section#banner { margin: 0 auto 70px; }
+
+    main section#banner article { width: 80%; }
+
+    main section#hamburguesas-info { margin: 0 auto 70px;}
+    main section#hamburguesas-info article { width: 80%; height: auto; }
+    main section#hamburguesas-info article h3 { font-size: 45px; text-align: center;}
+    main section#hamburguesas-info article figure { float: none; margin: 0px auto; padding: 0 0 53px 0;}
+    main section#hamburguesas-info article figure:last-child { float: none; margin: 0px auto; padding: 0 0 53px 0; } 
+
+
+    main section#pizzas-info { margin: 0 auto 70px;}
+    main section#pizzas-info article { width: 80%; height: auto; }
+    main section#pizzas-info article h3 { font-size: 45px; text-align: center;}
+    main section#pizzas-info article figure { float: none; margin: 0px auto; padding: 0 0 53px 0;}
+    main section#pizzas-info article figure:last-child { float: none; margin: 0px auto; padding: 0 0 53px 0; }
+    
+    
+    main section#combos { margin: 0 auto 70px; }
+    main section#combos article { width: 80%; height: 420px; }
+    main section#combos article h3 { font-size: 45px; text-align: center;}
+    main section#combos article nav a:nth-child(3) { display: none;}
+    main section#combos article nav a:nth-child(6) { display: none;}
+    main section#combos article nav { width: 100%; height: auto; float: none; margin: 0 auto; display: block;}
+    main section#combos article nav a { width: 236px; height: 148px; margin: 0 10px 10px 0; float: left; }
+
+
+
+    main section#bebidas-info { margin: 0 auto 70px;}
+    main section#bebidas-info article { width: 80%; height: auto; }
+    main section#bebidas-info article h3 { font-size: 45px; text-align: center;}
+    main section#bebidas-info article figure { float: none; margin: 0px auto; padding: 0 0 53px 0;}
+    main section#bebidas-info article figure:last-child { float: none; margin: 0px auto; padding: 0 0 53px 0; }
+
+
+    footer { height: 494px;}
+    footer article { width: 80%; height: auto;}
+    footer article div { width: 350px; height: auto; padding: 145px 0 0;}
+    footer article div img { float: none; margin: 0 auto; display: block; padding: 0 0 50px;}
+    footer article div nav { float: none; margin: 0 auto;}
+    
+    
+     }
+    
+    
+     @media only screen and (max-width: 799px){
+
+        main section#banner article { height: 400px; }
+
+        main section#banner article h2 { display: none;}
+
+
+        main section#combos { margin: 0 auto 70px; }
+        main section#combos article { width: 100%; height: 420px; }
+        main section#combos article h3 { font-size: 45px; text-align: center;}
+        main section#combos article nav a:nth-child(3) { display: none;}
+        main section#combos article nav a:nth-child(6) { display: none;}
+        main section#combos article nav a:nth-child(2) { margin: 0 0 10px 0;}
+        main section#combos article nav a:nth-child(5) { margin: 0 0 10px 0;}
+        main section#combos article nav { width: 100%; height: auto; float: none; margin: 0 auto;}
+        main section#combos article nav a { width: 236px; height: 148px; margin: 0 10px 10px 0; float: left; }
+    
+        
+    
+    
+    
+    }
+     /*Ajustes para móviles*/
+    
+     @media only screen and (max-width: 499px){ 
+    
+        
+    
+      }
+    
+    @media only screen and (max-width: 399px){  
+    
+    
+
+
+
+
+  
